@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Instagram Tracker</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+
+    <h1>Instagram Unfollow Tracker</h1>
+    
+    <div class="selectors">
+
+        <select id="oldSnapshotSelect"></select>
+
+        <select id="newSnapshotSelect"></select>
+
+    </div>
+
+    <button id="compareButton">
+        Comparar Snapshots
+    </button>
+
+    <div class="comparison-container">
+
+        <div class="column">
+
+            <h2>Old Followers</h2>
+
+            <div id="oldFollowers"></div>
+
+        </div>
+
+        <div class="column">
+
+            <h2>New Followers</h2>
+
+            <div id="newFollowers"></div>
+
+        </div>
+
+    </div>
+
+    <script src="./js/app.js"></script>
+
+</body>
+</html>
